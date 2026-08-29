@@ -3,77 +3,76 @@
 	"name": "fdm_process_common",
 	"from": "system",
 	"instantiation": "false",
-	"default_acceleration": [
-		"1000"
-	],
+	"bottom_shell_layers": "5",
+	"bottom_shell_thickness": "0.75",
+	"fuzzy_skin_point_distance": "0.8",
+	"fuzzy_skin_thickness": "0.3",
 	"gap_infill_speed": [
-		"60"
+		"40"
 	],
-	"inner_wall_speed": [
-		"50"
-	],
-	"initial_layer_acceleration": [
-		"500"
-	],
-	"initial_layer_infill_speed": [
-		"25"
-	],
-	"initial_layer_line_width": "110%",
+	"infill_anchor": "2.5",
+	"infill_anchor_max": "12",
+	"infill_combination": "1",
+	"infill_combination_max_layer_height": "80%",
+	"initial_layer_line_width": "0.4",
 	"initial_layer_speed": [
 		"20"
 	],
 	"inner_wall_acceleration": [
-		"1000"
+		"800"
 	],
-	"inner_wall_line_width": "100%",
-	"internal_solid_infill_line_width": "110%",
+	"inner_wall_line_width": "0.4",
+	"inner_wall_speed": [
+		"55"
+	],
+	"internal_solid_infill_line_width": "0.4",
 	"internal_solid_infill_speed": [
 		"60"
 	],
-	"line_width": "100%",
-	"outer_wall_line_width": "100%",
+	"is_infill_first": "1",
+	"line_width": "0.4",
+	"outer_wall_line_width": "0.4",
+	"outer_wall_speed": [
+		"40"
+	],
+	"overhang_1_4_speed": [
+		"25"
+	],
 	"overhang_2_4_speed": [
-		"30"
+		"20"
 	],
 	"overhang_3_4_speed": [
-		"30"
+		"15"
 	],
 	"overhang_4_4_speed": [
-		"10"
-	],
-	"print_extruder_id": [
-		"1"
+		"15"
 	],
 	"print_extruder_variant": [
 		"Bowden Standard"
 	],
-	"slowdown_for_curled_perimeters": [
-		"1"
+	"small_perimeter_speed": [
+		"25"
 	],
-	"sparse_infill_density": "15%",
-	"sparse_infill_line_width": "100%",
-	"sparse_infill_pattern": "crosshatch",
+	"sparse_infill_density": "18%",
+	"sparse_infill_line_width": "0.4",
 	"sparse_infill_speed": [
-		"60"
-	],
-	"support_line_width": "97%",
-	"top_surface_acceleration": [
-		"1000"
-	],
-	"top_surface_line_width": "97%",
-	"top_surface_speed": [
-		"30"
-	],
-	"travel_acceleration": [
-		"1000"
-	],
-	"travel_speed": [
-		"150"
+		"80"
 	],
 	"support_interface_speed": [
-		"60"
+		"55"
 	],
+	"support_line_width": "0.35",
 	"support_speed": [
-		"60"
-	]
+		"55"
+	],
+	"top_shell_layers": "5",
+	"top_shell_thickness": "0.75",
+	"top_surface_line_width": "0.4",
+	"top_surface_speed": [
+		"40"
+	],
+	"travel_acceleration": [
+		"800"
+	],
+	"wall_sequence": "outer wall/inner wall"
 }
