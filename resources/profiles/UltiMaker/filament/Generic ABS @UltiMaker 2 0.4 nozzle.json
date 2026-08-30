@@ -33,6 +33,9 @@
 	"reduce_fan_stop_start_freq": [
 		"0"
 	],
+	"filament_flow_ratio": [
+		"1"
+	],
 	"compatible_printers": [
     "UltiMaker 2 0.4 nozzle"
 	]

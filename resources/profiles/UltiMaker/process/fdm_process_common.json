@@ -73,6 +73,5 @@
 	],
 	"travel_acceleration": [
 		"800"
-	],
-	"wall_sequence": "outer wall/inner wall"
+	]
 }
